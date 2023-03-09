@@ -7,7 +7,7 @@ public class CajaTexto {
         Scanner in = new Scanner(System.in);
         int nun = 0;
         do {
-            System.out.println("ingrese el número");
+            System.out.println("ingrese un Número");
             nun = in.nextInt();
             lista.add(nun);
         }while (nun != 0);
